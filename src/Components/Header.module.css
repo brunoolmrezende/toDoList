@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+
+  height: 20rem;
+  width: 100%;
+  background: var(--gray-700);
+}
+
+.header img {
+  width: 22px;
+  height: 36px;
+}
+
+.header strong {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.header strong:nth-child(1) {
+  color: var(--blue);
+}
+
+.header strong:nth-child(2) {
+  color: var(--purple-dark);
+}
